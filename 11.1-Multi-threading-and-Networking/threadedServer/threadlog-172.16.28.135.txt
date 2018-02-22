@@ -1,0 +1,28 @@
+20180212105158: <- ls20180212105158: -> etcshadow
+old
+remoteHosts.txt
+threadedServer.py
+threadedServer-sudo.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.135.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212105158: -> 20180212105203: Closing connection20180212105606: <- ls20180212105606: -> etcshadow
+old
+remoteHosts.txt
+threadedServer.py
+threadedServer-sudo.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.135.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212105606: -> 20180212105609: <- sudo -s20180212105609: Enter sudo password: 20180212105614: -> 20180212105614: -> 20180212105614: Closing connection20180212105946: <- ls20180212105946: -> etcshadow
+old
+remoteHosts.txt
+threadedServer.py
+threadedServer-sudo.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.135.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212105946: -> 20180212105948: <- sudo -s20180212105948: Enter sudo password: 

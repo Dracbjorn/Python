@@ -1,0 +1,176 @@
+20180212081847: <- abcdefg
+20180212081847: -> 20180212081851: Closing connection20180212084624: Closing connection20180212084709: Closing connection20180212084747: Closing connection20180212084926: Closing connection20180212085447: Closing connection20180212085519: Closing connection20180212085809: <- ls20180212085809: -> old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212085810: [Errno 104] Connection reset by peer20180212085810: Closing connection20180212085840: <- ls20180212085840: -> old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212085841: Closing connection20180212090026: <- sudo -s
+password20180212090410: -> 20180212090410: Closing connection20180212090200: <- sudo -s
+password20180212090410: -> 20180212090410: Closing connection20180212090330: <- sudo -s
+password; cat /etc/shadow20180212090410: -> 20180212090410: Closing connection20180212090053: <- sudo -s
+password
+cat /etc/shadow20180212090410: -> 20180212090410: Closing connection20180212090229: <- sudo -s
+password20180212090410: -> 20180212090410: <- cat /etc/shadow20180212090410: -> 20180212090410: Closing connection20180212090703: <- whomai20180212090703: -> 20180212090704: Closing connection20180212090750: <- ls20180212090750: -> old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212090751: Closing connection20180212090802: <- cat /etc/shadow20180212090802: -> root:$6$TYASY/A8zFpzrere$RVOoCflAjnTh9LIAh5NblsAfap8yNo.YhzeVycsmp3BBbEaBjEhm0Vfh4mdfKiHMg.Dd79mQ0gq3TRkLpAS5s1::0:99999:7:::
+bin:*:17110:0:99999:7:::
+daemon:*:17110:0:99999:7:::
+adm:*:17110:0:99999:7:::
+lp:*:17110:0:99999:7:::
+sync:*:17110:0:99999:7:::
+shutdown:*:17110:0:99999:7:::
+halt:*:17110:0:99999:7:::
+mail:*:17110:0:99999:7:::
+operator:*:17110:0:99999:7:::
+games:*:17110:0:99999:7:::
+ftp:*:17110:0:99999:7:::
+nobody:*:17110:0:99999:7:::
+systemd-bus-proxy:!!:17191::::::
+systemd-network:!!:17191::::::
+dbus:!!:17191::::::
+polkitd:!!:17191::::::
+abrt:!!:17191::::::
+unbound:!!:17191::::::
+usbmuxd:!!:17191::::::
+tss:!!:17191::::::
+libstoragemgmt:!!:17191::::::
+rpc:!!:17191:0:99999:7:::
+colord:!!:17191::::::
+saslauth:!!:17191::::::
+geoclue:!!:17191::::::
+setroubleshoot:!!:17191::::::
+rtkit:!!:17191::::::
+qemu:!!:17191::::::
+radvd:!!:17191::::::
+chrony:!!:17191::::::
+ntp:!!:17191::::::
+sssd:!!:17191::::::
+rpcuser:!!:17191::::::
+nfsnobody:!!:17191::::::
+pulse:!!:17191::::::
+gdm:!!:17191::::::
+gnome-initial-setup:!!:17191::::::
+avahi:!!:17191::::::
+postfix:!!:17191::::::
+sshd:!!:17191::::::
+tcpdump:!!:17191::::::
+user:$6$Y4N5fn.kzxtVMC4x$bgrjMf9KYctJwjYQS8kzQdD38Emi2TmAv/XJkemkgEP4CsaoIHYzJx0W19hs/KTCT9UufRAz80E9sVJFt36QW0::0:99999:7:::
+kgraves:!!:17570:0:99999:7:::
+PYTHONFINAL:$6$9vsYAAk/$.OdTtcShd8WIUM5KGFPmY5Z9GOwLUEIP723efIRVQGJ/8n8s0erRAFo.6m.ZWR31kfdtAts6Nf.9TbB4Q2hjO1:17571:0:99999:7:::
+20180212090803: Closing connection20180212091039: <- cat /etc/shadow20180212091039: -> 20180212091039: -> cat: /etc/shadow: Permission denied
+20180212091040: Closing connection20180212091605: Closing connection20180212091107: <- sudo -s
+password
+cat /etc/shadow20180212091607: -> 20180212091607: -> /bin/sh: line 1: password: command not found
+cat: /etc/shadow: Permission denied
+20180212091607: Closing connection20180212091629: Closing connection20180212091140: <- sudo -s
+password
+cat /etc/shadow20180212091640: -> 20180212091640: -> /bin/sh: line 1: password: command not found
+cat: /etc/shadow: Permission denied
+20180212091640: Closing connection20180212091727: <- ls20180212091727: -> old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212091727: -> 20180212091728: Closing connection20180212091236: <- sudo -s20180212091736: -> 20180212091736: -> 20180212091736: Closing connection20180212091810: <- cat /etc/shadow20180212091810: -> root:$6$TYASY/A8zFpzrere$RVOoCflAjnTh9LIAh5NblsAfap8yNo.YhzeVycsmp3BBbEaBjEhm0Vfh4mdfKiHMg.Dd79mQ0gq3TRkLpAS5s1::0:99999:7:::
+bin:*:17110:0:99999:7:::
+daemon:*:17110:0:99999:7:::
+adm:*:17110:0:99999:7:::
+lp:*:17110:0:99999:7:::
+sync:*:17110:0:99999:7:::
+shutdown:*:17110:0:99999:7:::
+halt:*:17110:0:99999:7:::
+mail:*:17110:0:99999:7:::
+operator:*:17110:0:99999:7:::
+games:*:17110:0:99999:7:::
+ftp:*:17110:0:99999:7:::
+nobody:*:17110:0:99999:7:::
+systemd-bus-proxy:!!:17191::::::
+systemd-network:!!:17191::::::
+dbus:!!:17191::::::
+polkitd:!!:17191::::::
+abrt:!!:17191::::::
+unbound:!!:17191::::::
+usbmuxd:!!:17191::::::
+tss:!!:17191::::::
+libstoragemgmt:!!:17191::::::
+rpc:!!:17191:0:99999:7:::
+colord:!!:17191::::::
+saslauth:!!:17191::::::
+geoclue:!!:17191::::::
+setroubleshoot:!!:17191::::::
+rtkit:!!:17191::::::
+qemu:!!:17191::::::
+radvd:!!:17191::::::
+chrony:!!:17191::::::
+ntp:!!:17191::::::
+sssd:!!:17191::::::
+rpcuser:!!:17191::::::
+nfsnobody:!!:17191::::::
+pulse:!!:17191::::::
+gdm:!!:17191::::::
+gnome-initial-setup:!!:17191::::::
+avahi:!!:17191::::::
+postfix:!!:17191::::::
+sshd:!!:17191::::::
+tcpdump:!!:17191::::::
+user:$6$Y4N5fn.kzxtVMC4x$bgrjMf9KYctJwjYQS8kzQdD38Emi2TmAv/XJkemkgEP4CsaoIHYzJx0W19hs/KTCT9UufRAz80E9sVJFt36QW0::0:99999:7:::
+kgraves:!!:17570:0:99999:7:::
+PYTHONFINAL:$6$9vsYAAk/$.OdTtcShd8WIUM5KGFPmY5Z9GOwLUEIP723efIRVQGJ/8n8s0erRAFo.6m.ZWR31kfdtAts6Nf.9TbB4Q2hjO1:17571:0:99999:7:::
+20180212091811: Closing connection20180212091910: <- cat /etc/shadow > etcshadow20180212091910: -> 20180212091911: Closing connection20180212091945: <- cat /etc/shadow20180212091945: -> root:$6$TYASY/A8zFpzrere$RVOoCflAjnTh9LIAh5NblsAfap8yNo.YhzeVycsmp3BBbEaBjEhm0Vfh4mdfKiHMg.Dd79mQ0gq3TRkLpAS5s1::0:99999:7:::
+bin:*:17110:0:99999:7:::
+daemon:*:17110:0:99999:7:::
+adm:*:17110:0:99999:7:::
+lp:*:17110:0:99999:7:::
+sync:*:17110:0:99999:7:::
+shutdown:*:17110:0:99999:7:::
+halt:*:17110:0:99999:7:::
+mail:*:17110:0:99999:7:::
+operator:*:17110:0:99999:7:::
+games:*:17110:0:99999:7:::
+ftp:*:17110:0:99999:7:::
+nobody:*:17110:0:99999:7:::
+systemd-bus-proxy:!!:17191::::::
+systemd-network:!!:17191::::::
+dbus:!!:17191::::::
+polkitd:!!:17191::::::
+abrt:!!:17191::::::
+unbound:!!:17191::::::
+usbmuxd:!!:17191::::::
+tss:!!:17191::::::
+libstoragemgmt:!!:17191::::::
+rpc:!!:17191:0:99999:7:::
+colord:!!:17191::::::
+saslauth:!!:17191::::::
+geoclue:!!:17191::::::
+setroubleshoot:!!:17191::::::
+rtkit:!!:17191::::::
+qemu:!!:17191::::::
+radvd:!!:17191::::::
+chrony:!!:17191::::::
+ntp:!!:17191::::::
+sssd:!!:17191::::::
+rpcuser:!!:17191::::::
+nfsnobody:!!:17191::::::
+pulse:!!:17191::::::
+gdm:!!:17191::::::
+gnome-initial-setup:!!:17191::::::
+avahi:!!:17191::::::
+postfix:!!:17191::::::
+sshd:!!:17191::::::
+tcpdump:!!:17191::::::
+user:$6$Y4N5fn.kzxtVMC4x$bgrjMf9KYctJwjYQS8kzQdD38Emi2TmAv/XJkemkgEP4CsaoIHYzJx0W19hs/KTCT9UufRAz80E9sVJFt36QW0::0:99999:7:::
+kgraves:!!:17570:0:99999:7:::
+PYTHONFINAL:$6$9vsYAAk/$.OdTtcShd8WIUM5KGFPmY5Z9GOwLUEIP723efIRVQGJ/8n8s0erRAFo.6m.ZWR31kfdtAts6Nf.9TbB4Q2hjO1:17571:0:99999:7:::
+20180212091946: Closing connection

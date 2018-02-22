@@ -1,0 +1,139 @@
+20180212083238: <- cat /etc/shadow20180212083238: -> 20180212083256: Closing connection20180212083330: <- ls20180212083330: -> old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+20180212083349: <- less remoteHosts.txt20180212083349: -> 172.16.28.203
+172.16.28.204
+172.16.28.208
+172.16.28.254
+20180212083409: <- less /etc/shadow20180212083409: -> 20180212083450: Closing connection20180212083542: <- ifconfig20180212083542: -> ens160: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.16.28.135  netmask 255.255.255.0  broadcast 172.16.28.255
+        inet6 fe80::6542:7b63:1ee2:3238  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:91:09:ce  txqueuelen 1000  (Ethernet)
+        RX packets 786148  bytes 937992166 (894.5 MiB)
+        RX errors 0  dropped 168  overruns 0  frame 0
+        TX packets 478443  bytes 31353598 (29.9 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1  (Local Loopback)
+        RX packets 96142  bytes 8229557 (7.8 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 96142  bytes 8229557 (7.8 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:b3:7b:94  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+20180212083557: <- whoami20180212083557: -> user
+20180212083608: <- w20180212083608: ->  08:36:08 up 4 days, 23:09,  3 users,  load average: 0.05, 0.03, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+user     :0       :0               Wed09   ?xdm?   1:29m  2.91s gdm-session-worker [pam/gdm-password]
+user     pts/0    :0               Thu09    2days  2.90s  3:47  /usr/libexec/gnome-terminal-server
+user     pts/1    :0               Thu09   19:04   1.01s  3:47  /usr/libexec/gnome-terminal-server
+20180212083616: <- sudo20180212083616: -> 20180212083628: <- sudo less /etc/shadow20180212084128: -> 20180212084128: Closing connection20180212084218: Closing connection20180212090815: Closing connection20180212091005: <- cat /etc/passwd20180212091005: -> root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+unbound:x:997:994:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+libstoragemgmt:x:996:993:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+colord:x:995:992:User for colord:/var/lib/colord:/sbin/nologin
+saslauth:x:994:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+geoclue:x:993:991:User for geoclue:/var/lib/geoclue:/sbin/nologin
+setroubleshoot:x:992:989::/var/lib/setroubleshoot:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+chrony:x:991:988::/var/lib/chrony:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+sssd:x:990:987:User for sssd:/:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:989:984::/run/gnome-initial-setup/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+user:x:1000:1000:User:/home/user:/bin/bash
+kgraves:x:1001:1001::/home/kgraves:/bin/bash
+PYTHONFINAL:x:1002:1002::/home/PYTHONFINAL:/bin/bash
+20180212091105: [Errno 104] Connection reset by peer20180212091105: Closing connection20180212092642: <- cat /etc/shadow20180212092642: -> root:$6$TYASY/A8zFpzrere$RVOoCflAjnTh9LIAh5NblsAfap8yNo.YhzeVycsmp3BBbEaBjEhm0Vfh4mdfKiHMg.Dd79mQ0gq3TRkLpAS5s1::0:99999:7:::
+bin:*:17110:0:99999:7:::
+daemon:*:17110:0:99999:7:::
+adm:*:17110:0:99999:7:::
+lp:*:17110:0:99999:7:::
+sync:*:17110:0:99999:7:::
+shutdown:*:17110:0:99999:7:::
+halt:*:17110:0:99999:7:::
+mail:*:17110:0:99999:7:::
+operator:*:17110:0:99999:7:::
+games:*:17110:0:99999:7:::
+ftp:*:17110:0:99999:7:::
+nobody:*:17110:0:99999:7:::
+systemd-bus-proxy:!!:17191::::::
+systemd-network:!!:17191::::::
+dbus:!!:17191::::::
+polkitd:!!:17191::::::
+abrt:!!:17191::::::
+unbound:!!:17191::::::
+usbmuxd:!!:17191::::::
+tss:!!:17191::::::
+libstoragemgmt:!!:17191::::::
+rpc:!!:17191:0:99999:7:::
+colord:!!:17191::::::
+saslauth:!!:17191::::::
+geoclue:!!:17191::::::
+setroubleshoot:!!:17191::::::
+rtkit:!!:17191::::::
+qemu:!!:17191::::::
+radvd:!!:17191::::::
+chrony:!!:17191::::::
+ntp:!!:17191::::::
+sssd:!!:17191::::::
+rpcuser:!!:17191::::::
+nfsnobody:!!:17191::::::
+pulse:!!:17191::::::
+gdm:!!:17191::::::
+gnome-initial-setup:!!:17191::::::
+avahi:!!:17191::::::
+postfix:!!:17191::::::
+sshd:!!:17191::::::
+tcpdump:!!:17191::::::
+user:$6$Y4N5fn.kzxtVMC4x$bgrjMf9KYctJwjYQS8kzQdD38Emi2TmAv/XJkemkgEP4CsaoIHYzJx0W19hs/KTCT9UufRAz80E9sVJFt36QW0::0:99999:7:::
+kgraves:!!:17570:0:99999:7:::
+PYTHONFINAL:$6$9vsYAAk/$.OdTtcShd8WIUM5KGFPmY5Z9GOwLUEIP723efIRVQGJ/8n8s0erRAFo.6m.ZWR31kfdtAts6Nf.9TbB4Q2hjO1:17571:0:99999:7:::
+20180212092724: <- ls20180212092724: -> etcshadow
+old
+remoteHosts.txt
+threadedServer.py
+threadlog-172.16.28.134.txt
+threadlog-172.16.28.137.txt
+threadlog-172.16.28.150.txt
+20180212092732: Closing connection
